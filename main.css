@@ -59,7 +59,7 @@ body {
     border: 1px solid #fabf26;
     font-size: 0.85rem;
     font-weight: 700;
-    color: #FABF26;
+    color: #FABF26 !important;
 }
 
 .button-outline-yellow:hover {
@@ -74,6 +74,19 @@ body {
     color: #000;
     transition: 0.3s ease;
     border: 1px solid #fabf26 !important;
+}
+
+.navbar-dropdown {
+    background: #232643 !important;
+    border-color: rgba(86,98,140,0.19) !important;
+}
+
+.navbar-dropdown a {
+    color: #FABF26 !important;
+}
+
+.dropHover:hover {
+    background: transparent !important;
 }
 
 nav {

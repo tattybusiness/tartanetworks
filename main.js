@@ -23,3 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
   });
+
+// dropdown
+
+const drop = document.getElementById("dropdown");
+const droptoggle = document.getElementById("droptoggle");
+
+droptoggle.addEventListener("click", () => {
+  drop.classList.toggle("is-active");
+})

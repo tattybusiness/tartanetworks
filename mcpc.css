@@ -1,0 +1,32 @@
+.promo {
+    background-color: #FABF26;
+}
+
+.serverimg {
+    width: 400px;
+}
+
+.navbar-dropdown {
+    background: #232643 !important;
+    border-color: rgba(86,98,140,0.19) !important;
+}
+
+.navbar-dropdown a {
+    color: #FABF26 !important;
+}
+
+.features {
+    background-color: rgba(86,98,140,0.19);
+    border-radius: 8px;
+}
+
+.myCard2 {
+    background: rgba(86,98,140,0.19);
+    border-radius: 11px;
+}
+
+@media only screen and (max-width: 617px) {
+    .plans {
+        justify-content: center !important;
+    }
+}
