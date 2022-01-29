@@ -16,8 +16,8 @@
     border-radius: 11px;
 }
 
-.myButton {
-    padding: 1.5rem 2rem;
+.myButton2 {
+    padding: 1.5rem 2rem !important;
 }
 
 @media only screen and (max-width: 617px) {
