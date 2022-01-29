@@ -1,0 +1,171 @@
+* {
+    font-family: 'Public Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #232643;
+}
+
+.yellow {
+    color: #FABF26;
+}
+
+.grey {
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.blueTwo {
+    color: rgba(86,98,140,0.19);
+}
+
+.link {
+    font-weight: 900;
+    color: #fff;
+}
+
+.link:hover {
+    color: #FABF26 !important;
+    transition: 0.5s ease;
+}
+
+.link.active {
+    color: #FABF26 !important;
+}
+
+.myButton {
+    background: #fabf26 !important;
+    color: #000 !important;
+}
+
+.myButton:hover {
+    background: transparent !important;
+    color: #fff !important;
+}
+
+.button-outline {
+    background: transparent;
+    border: 1px solid #fabf26;
+    color: #fff;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.button-outline-yellow {
+    background: transparent;
+    border: 1px solid #fabf26;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #FABF26;
+}
+
+.button-outline-yellow:hover {
+    background: #FABF26;
+    color: #000;
+    transition: 0.3s ease;
+    border: 1px solid #fabf26 !important;
+}
+
+.button-outline:hover {
+    background: #FABF26;
+    color: #000;
+    transition: 0.3s ease;
+    border: 1px solid #fabf26 !important;
+}
+
+nav {
+    padding: 1rem 0rem;
+}
+
+.header {
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.myCard {
+    background: rgba(86,98,140,0.19);
+    padding: 2rem;
+    border-radius: 11px;
+}
+
+.info-card {
+    background: url(assets/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3rem 0rem;
+}
+
+.myFooter {
+    background: #141414;
+    padding: 3rem 2rem;
+}
+
+.myHover:hover {
+    color: rgba(255, 255, 255, 0.74) !important;
+}
+
+.mylinks a:hover {
+    color: rgba(255, 255, 255, 0.74) !important;
+}
+
+.top {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.right {
+    margin-right: 2rem;
+}
+
+/* media queries */
+@media only screen and (max-width: 1407px) {
+    .right2 {
+        margin-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    .header img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 875px) {
+    .one .cards {
+        justify-content: center !important;
+    }
+
+    .one .cards .right, .right2 {
+        margin-right: 0rem;
+    }
+
+    .two .cards {
+        justify-content: center !important;
+    }
+
+}
+
+@media only screen and (max-width: 744px) {
+    .myFooter .center {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .myFooter .right {
+        margin-top: 1rem;
+        justify-content: space-between;
+        height: 100px;
+    }
+    
+}
+
+@media only screen and (max-width: 370px) {
+    .is-size-2 {
+        font-size: 2rem !important;
+    }
+}
